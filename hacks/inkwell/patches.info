@@ -2,10 +2,10 @@
   "file": "./patches.zip",
   "patches": [
     {
-      "file": "InkwellV1.02.ups",
-      "name": "Inkwell (v1.02)",
+      "file": "InkwellV1.03.ups",
+      "name": "Inkwell (v1.03)",
       "description": "A romhaiku",
-      "outputName": "inkwell_v1.02"
+      "outputName": "inkwell_v1.03"
     }
   ]
 }
