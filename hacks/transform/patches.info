@@ -2,10 +2,10 @@
   "file": "./patches.zip",
   "patches": [
     {
-      "file": "poketransform_v1.3.3.bps",
-      "name": "Pokemon Transform (v1.3.3)",
+      "file": "poketransform_v1.3.4.bps",
+      "name": "Pokemon Transform (v1.3.4)",
       "description": "",
-      "outputName": "poketransform_v1.3.3"
+      "outputName": "poketransform_v1.3.4"
     }
   ]
 }
