@@ -2,8 +2,8 @@ name: Update Patch Zip Files
 
 on:
   workflow_dispatch:
-  pull_request:
-    types: [closed]
+  # pull_request:
+  #  types: [closed]
 
 jobs:
   patch:
