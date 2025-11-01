@@ -1,0 +1,36 @@
+:root {
+    --page-title-color: white;
+    --page-bg-color: #f2b26d;
+    --page-bg-color-darker: #e79032;
+    --page-bg-color-darker-2: #ca7922;
+    --page-rom-patcher-link-color: ;
+}
+
+#rom-patcher-container {
+    padding: 30px;
+    width: 100%;
+}
+
+#rom-patcher-container button {
+    background-color: var(--page-bg-color-darker);
+    font-weight: bold;
+}
+
+#rom-patcher-container button:not(:disabled):hover {
+    background-color: var(--page-bg-color-darker-2);
+}
+
+.base-rom {
+    padding-bottom: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+a {
+    color: var(--page-bg-color-darker);
+    font-weight: bold;
+}
