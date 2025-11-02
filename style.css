@@ -43,6 +43,10 @@ body {
     padding: 20px;
 }
 
+@media (width <= 550px) {
+    padding: 10px;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -52,7 +56,7 @@ body {
 the other elements, you will need to move that div outside
 of the container */
 #container {
-    max-width: 900px;
+    max-width: min(100%, 900px);
 }
 
 #header {
@@ -166,6 +170,7 @@ main {
     background-color: white;
     flex: 1 1 250px;
     min-height: 250px;
+    max-width: min(100%, 320px);
 }
 
 .hacks_subblock > .hack_buttons > .hack_button:hover {
@@ -178,7 +183,7 @@ main {
 }
 
 .hacks_subblock > .hack_buttons > .hack_button > img {
-    width: 300px;
+    max-width: min(300px, 100%);
 }
 
 @font-face {

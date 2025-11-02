@@ -7,8 +7,9 @@
 }
 
 #rom-patcher-container {
-    padding: 30px;
     width: 100%;
+    padding: 30px;
+    border-radius: 20px;
 }
 
 #rom-patcher-container button {
@@ -28,9 +29,21 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+    background-image: url(./assets/bg.png);
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    /* background-color: transparent !important; */
 }
 
 a {
     color: var(--page-bg-color-darker);
     font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
 }

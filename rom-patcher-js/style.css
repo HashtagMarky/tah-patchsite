@@ -532,7 +532,7 @@ img {
 	color: var(--rom-patcher-link-color);
 	padding: 4px 8px;
 	text-decoration: none;
-	opacity: .25;
+	/* opacity: .25; */
 }
 
 #rom-patcher-powered a>img {
@@ -557,7 +557,7 @@ img {
 	color: var(--rom-patcher-link-color);
 	padding: 4px 8px;
 	text-decoration: none;
-	opacity: .25;
+	/* opacity: .25; */
 }
 
 #team-aqua-homepage a>img {
