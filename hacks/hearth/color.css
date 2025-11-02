@@ -32,7 +32,8 @@ body {
     background-image: url(./assets/bg.png);
     background-attachment: fixed;
     background-blend-mode: multiply;
-    /* background-color: transparent !important; */
+    image-rendering: pixelated;
+    background-size: cover;
 }
 
 a {
