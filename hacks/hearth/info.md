@@ -11,3 +11,5 @@ In a nutshell:
 - Classic formula with vanilla-ish difficulty
 
 Join the [Discord server](https://discord.gg/XDetmVQQZy) to give your feedback on the demo, and to follow further development!
+
+Note: This game was tested on the **mGBA** emulator.
